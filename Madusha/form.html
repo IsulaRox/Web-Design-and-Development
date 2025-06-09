@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing page </title> <!-- Title of the page -->
+    <link rel="stylesheet" href="./css/form.css"> <!-- Custom CSS for form -->
+    <link rel="stylesheet" href="./css/template.css"> <!-- Generic template CSS -->
+</head>
+<body>
+
+  <div class="feedback-container1"> <!-- Container for feedback navigation -->
+    <div class="feedback-navigation"> <!-- Navigation section -->
+        <nav class="feedback-site-nav"> <!-- Site navigation -->
+            <ul class="feedback-Nav_group"> <!-- Navigation list -->
+                <img class="feedback-Logo" src="./images/Untitled image.png"> <!-- Site logo -->
+                <li class="feedback-home"><a href="../Kawya/home.html" onclick="group();">Home</a></li> <!-- Home link -->
+                <li class="feedback-gallery"><a href="../Gerald/Gallery.html" onclick="group();">Gallery</a></li> <!-- Gallery link -->
+                <li class="feedback-shop"><a href="Shop.html" onclick="group();">Shop</a></li> <!-- Shop link -->
+                <li class="feedback-profile"><a href="../Isula/Profile/Profile.html" onclick="group();">Profile</a></li> <!-- Profile link -->
+                <li class="feedback-feedback"><a href="../Kawya/feedback.html" onclick="group();">Feedback</a></li> <!-- Feedback link -->
+                <li class="feedback-sitemap"><a href="../Gerald/Site Map.html" onclick="group();">Sitemap</a></li> <!-- Site map link -->
+                <li class="feedback-team"><a href="../Isula/Team/Team.html" onclick="group();">Team</a></li> <!-- Team link -->
+            </ul>
+        </nav>
+    </div>
+  </div>
+    <div class="row"> <!-- Row section for layout -->
+        <div class="col-75"> <!-- Column section for billing form -->
+          <div class="container"> <!-- Container for form -->
+            <form action="/action_page.php"> <!-- Form -->
+      
+              <div class="row"> <!-- Row for billing address -->
+                <div class="col-50"> <!-- Column for billing address -->
+                  <h3>Billing Address</h3> <!-- Subheading -->
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label> <!-- Label and input for full name -->
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe" required> <!-- Input for full name -->
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label> <!-- Label and input for email -->
+                  <input type="text" id="email" name="email" placeholder="john@example.com" required> <!-- Input for email -->
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label> <!-- Label and input for address -->
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required> <!-- Input for address -->
+                  <label for="city"><i class="fa fa-institution"></i> City</label> <!-- Label and input for city -->
+                  <input type="text" id="city" name="city" placeholder="New York" required> <!-- Input for city -->
+      
+                  <div class="row"> <!-- Row for state and zip -->
+                    <div class="col-50"> <!-- Column for state -->
+                      <label for="state">State</label> <!-- Label and input for state -->
+                      <input type="text" id="state" name="state" placeholder="NY" required> <!-- Input for state -->
+                    </div>
+                    <div class="col-50"> <!-- Column for zip -->
+                      <label for="zip">Zip</label> <!-- Label and input for zip -->
+                      <input type="text" id="zip" name="zip" placeholder="10001" required> <!-- Input for zip -->
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50"> <!-- Column for payment information -->
+                  <h3>Payment</h3> <!-- Subheading -->
+                  <label for="fname">Accepted Cards</label> <!-- Label for accepted cards -->
+                  <div class="icon-container"> <!-- Container for card icons -->
+                    <i class="fa fa-cc-visa" style="color:navy;"></i> <!-- Visa icon -->
+                    <i class="fa fa-cc-amex" style="color:blue;"></i> <!-- Amex icon -->
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i> <!-- Mastercard icon -->
+                    <i class="fa fa-cc-discover" style="color:orange;"></i> <!-- Discover icon -->
+                  </div>
+                  <label for="cname">Name on Card</label> <!-- Label and input for name on card -->
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe" required> <!-- Input for name on card -->
+                  <label for="ccnum">Credit card number</label> <!-- Label and input for credit card number -->
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required> <!-- Input for credit card number -->
+                  <label for="expmonth">Exp Month</label> <!-- Label and input for expiry month -->
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September" required> <!-- Input for expiry month -->
+      
+                  <div class="row"> <!-- Row for expiry year and CVV -->
+                    <div class="col-50"> <!-- Column for expiry year -->
+                      <label for="expyear">Exp Year</label> <!-- Label and input for expiry year -->
+                      <input type="text" id="expyear" name="expyear" placeholder="2018" required> <!-- Input for expiry year -->
+                    </div>
+                    <div class="col-50"> <!-- Column for CVV -->
+                      <label for="cvv">CVV</label> <!-- Label and input for CVV -->
+                      <input type="text" id="cvv" name="cvv" placeholder="352" required> <!-- Input for CVV -->
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing <!-- Checkbox for shipping address -->
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn"> <!-- Submit button -->
+            </form>
+          </div>
+        </div>
+        <div class="cart-container" id="cart-container"> <!-- Container for order summary -->
+          <h2> <center>Order Summery</center></h2> <!-- Order summary heading -->
+          <div class="selected-products" id="selected-products"></div> <!-- Container for selected products -->
+          <div class="total" id="total">Total: RS.0.00</div> <!-- Total price -->
+          <a href="Shop.html"><button id="reset-btn">Go Back</button></a> <!-- Button to go back to shop -->
+          <div id="validation-message"></div> <!-- Validation message container -->
+      </div>
+
+      <footer> <!-- Footer section -->
+        <div class="feedback-container"> <!-- Container for footer content -->
+            <div class="feedback-footer-content"> <!-- Footer content section -->
+                <h4>Contact Us</h4> <!-- Subheading -->
+                <p>Email: kawya.20221219@iit.ac.lk</p> <!-- Email address -->
+                <p>Phone: +94 752456910</p> <!-- Phone number -->
+                <p>Address: 10, Trelawney Place,<br> <!-- Address -->
+                    Colombo 04,<br>
+                    Sri Lanka.</p>
+            </div>
+      
+            <div class="feedback-footer-content"> <!-- Footer content section -->
+                <h4>Quick Links</h4> <!-- Subheading -->
+                <ul class="feedback-list"> <!-- List of quick links -->
+                  <li class="feedback-home"><a href="../Kawya/home.html" onclick="group();">Home</a></li> <!-- Home link -->
+                  <li class="feedback-gallery"><a href="../Gerald/Gallery.html" onclick="group();">Gallery</a></li> <!-- Gallery link -->
+                  <li class="feedback-shop"><a href="Shop.html" onclick="group();">Shop</a></li> <!-- Shop link -->
+                  <li class="feedback-profile"><a href="../Isula/Profile/Profile.html" onclick="group();">Profile</a></li> <!-- Profile link -->
+                  <li class="feedback-feedback"><a href="../Kawya/feedback.html" onclick="group();">Feedback</a></li> <!-- Feedback link -->
+                  <li class="feedback-sitemap"><a href="../Gerald/Site Map.html" onclick="group();">Sitemap</a></li> <!-- Site map link -->
+                  <li class="feedback-team"><a href="../Isula/Team/Team.html" onclick="group();">Team</a></li> <!-- Team link -->
+                </ul>
+            </div>
+      
+            <div class="feedback-footer-content"> <!-- Footer content section -->
+                <h4>Follow Us</h4> <!-- Subheading -->
+                <ul class="feedback-social-icons"> <!-- List of social media icons -->
+                    <li><a href="https://www.facebook.com/example">Facebook</a></li> <!-- Facebook link -->
+                    <li><a href="https://www.instagram.com/example">Instagram</a></li> <!-- Instagram link -->
+                    <li><a href="https://twitter.com/example">Twitter</a></li> <!-- Twitter link -->
+                </ul>
+            </div>
+      
+            <div class="feedback-footer-content"> <!-- Footer content section -->
+                <p><a class="feedback-link" href="page_editor.html">Link to page editor</a></p> <!-- Link to page editor -->
+            </div>
+        </div>
+      </footer>
+      <script src="./js/form.js"></script> <!-- JavaScript for form functionality -->
+</body>
+</html>

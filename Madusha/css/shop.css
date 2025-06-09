@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.item {
+    background-color: #e4faff;
+    padding: 20px;
+    border-radius: 23px; /* Rounded corners */
+    text-align: center;
+    display: flex; /* Use flexbox for the item container */
+    flex-direction: column; /* Stack elements vertically */
+    align-items:center; 
+}
+
+.item img {
+    width: 240px;
+    height: 240px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.containertopcategories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-containertopcategories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.itemtopcategories {
+    background-color: #e4faff;
+    padding: 20px;
+    border-radius: 23px; /* Rounded corners */
+    text-align: center;
+}
+
+.itemtopcategories img {
+    width: 240px;
+    height: 240px;
+}
+
+.itemtopcategories h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.itemtopcategories p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+    text-align: right;
+    font-weight: bold;
+}
+.header-image2 {
+    /* Your CSS styles for the header image */
+    width: 100%; /* Ensures the image spans the entire width of its container */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: -120px auto 0;
+}
+.header-image3 {
+    /* Your CSS styles for the header image */
+    width: 100%; /* Ensures the image spans the entire width of its container */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: -120px auto 0;
+}
+
+
+.heading {
+    position: absolute; /* Positions the heading relative to the .header container */
+    top: 38%; /* Places the heading vertically centered at 50% from the top */
+    left: 25.5%; /* Places the heading horizontally centered at 50% from the left */
+    transform: translate(-50%, -50%); /* Adjusts the position to center the heading */
+    color: rgb(92, 189, 210); /* Sets the color of the heading text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the text for better visibility */
+    z-index: 1; /* Ensures the heading appears above the image */
+    font-size: 60px;
+}
+
+.header-image {
+    width: 100%;
+    display: block;
+    /* Additional styles for the image */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button-gradient {
+    background-image: linear-gradient(to right, #f77979, #9d79bd); /* Orange to purple gradient */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    cursor: grab;
+    position: absolute; /* Change position to absolute */
+    top: 70%; /* Adjust top position */
+    left: 2%;
+  }
+  
+.button-gradient:hover {
+    background-image: linear-gradient(to right, #9d79bd, #f77979); /* Reverse gradient on hover */
+  }
+
+.header-image3 {
+    /* Your CSS styles for the header image */
+    width: 100%; /* Ensures the image spans the entire width of its container */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: -90px auto 0;
+  }
+
+.header-image4 {
+    /* Your CSS styles for the header image */
+    width: 100%; /* Ensures the image spans the entire width of its container */
+    display: block; /* Ensures the image is displayed as a block element */
+    width: 10%; /* Adjust the width of the image */
+    height: 15%;
+    top: 81%;
+    left: 90%;
+    position: absolute;
+  }
+
+.shop-button {
+    position: absolute; /* Position the button */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #f39d8e; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 350px;
+}
+
+.shop-button:hover {
+    background-color: #f0754f; /* Darker blue on hover */
+}
+
+.order-summary {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.order-summary h2 {
+    margin-bottom: 10px;
+}
+
+.selected-products {
+    margin-bottom: 10px;
+}
+
+.total {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#validation-message {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+#checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.item img, .itemtopcategories img {
+    width: 240px;
+    height: 240px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.item:hover img, .itemtopcategories:hover img {
+    transform: scale(1.05);
+}
+.item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.order-summary {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.order-summary h2 {
+    margin-top: 0;
+}
+
+.selected-products {
+    margin-bottom: 10px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-item img {
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.order-item input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.total {
+    font-weight: bold;
+}
+
+#checkout-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #0056b3;
+}
+
+.order-summary {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px; /* Add spacing after product details */
+  }
+  
+  .order-summary h2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .selected-products {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .total {
+    margin-bottom: 10px;
+  }
+  
+  #checkout-btn,#reset-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  #validation-message {
+    color: red;
+    font-weight: bold;
+    display: none; /* Hide by default */
+  }
+  
+  .order-summary.error #validation-message {
+    display: block; /* Show validation message on error */
+  }
+
+  .order-summary {
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    animation: slide-up 0.5s forwards;
+  }
+
+  

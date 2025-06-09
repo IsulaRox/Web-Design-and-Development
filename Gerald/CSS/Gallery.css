@@ -1,0 +1,584 @@
+html {
+    background: linear-gradient(120deg, rgba(2,31,49,1) 0%, 
+    rgba(24,56,75,1) 35%, 
+    rgba(0,157,255,1) 100%);
+    
+
+}
+
+.Logo {
+    float: left;
+    margin-left: -200px;
+    margin-top: -65px;
+}
+
+/*site navigations*/
+
+
+.Nav_group{
+
+    border: 1px solid transparent;
+    display: flex;
+    margin: 50px;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Nav_group li {
+    margin: 15px;
+}
+
+.Nav_group a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    
+}
+
+.Nav_group a:hover {
+    transition: all 1s;
+    color: rgb(0, 9, 92);
+    font-weight: bolder;
+    background-color:rgb(64, 233, 233);
+    box-shadow: 0 0 5px rgba(2,31,49,1), 0 0 15px rgba(24,56,75,1),0 0 25px aqua, 
+                0 0 100px rgba(0,157,255,1);
+}
+
+
+
+
+
+
+
+
+
+
+.Topic {
+    font-size: 200px;
+    font-weight: bold;
+    letter-spacing: 9px;
+    background-image: url(../Resources/Images/Landing_Bacground_Image.jpg);
+    background-size: 20%;
+    background-position: 50px 42px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    
+           
+}
+
+.Topic_sup {
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: bold;
+    color: rgba(115, 201, 255);
+
+}
+
+.search_bar_container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-Bar {
+    width: 50%;
+    max-width: 700px;
+    background: rgba(96, 194, 255, 0.43);
+    box-shadow: 0px 4px 30px 0 rgba( 167, 222, 255, 7);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+.Search-Bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: rgb(0, 255, 255);
+}
+
+.Search-Bar button {
+    border: 0;
+    padding-right: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgb(169, 255, 255);
+}
+
+.Text {
+    color: rgb(191, 255, 255);
+    font-size: 25px;
+}
+
+
+
+
+/**gallery sector begins**/
+
+.Gallery_Sector {
+    border: 10px solid transparent;
+    border-radius: 20px;
+    
+    margin: 50px;
+    background-color: transparent;
+    
+}
+
+.Gallery_Sector p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gallery_Images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.Gallery_Images img:hover{
+    transition-duration: 1s;
+    width: 250px;
+    height: 250px;
+    background: rgba(96, 194, 255, 0.43);
+    box-shadow: 0px 4px 30px 0 rgba( 167, 222, 255, 7);
+    
+    
+}
+
+.Gallery_Images img:not(:hover){
+    transition-duration: 1s;
+    
+}
+
+
+
+/*Fish image edting*/
+.Gallery_Images_Plankton img{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: transparent;
+    
+}
+.Gallery_Images_Plankton_Text{
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    font-size: 15px;
+}
+.Gallery_Images_Plankton:hover .Gallery_Images_Plankton_Text{
+    margin-top: -50px;
+    transition-duration: 1s;
+    color: aqua;
+}
+.Gallery_Images_Plankton:not(:hover) .Gallery_Images_Plankton_Text{
+    transition-duration: 0.5s;
+    color: transparent;
+}
+
+
+/*Nekton_Images image editing*/
+.Gallery_Images_Nekton img{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: transparent;
+   
+}
+
+.Gallery_Images_Nekton_Text{
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    font-size: 15px;
+}
+.Gallery_Images_Nekton:hover .Gallery_Images_Nekton_Text{
+    margin-top: -50px;
+    transition-duration: 1s;
+    color: aqua;
+}
+
+.Gallery_Images_Nekton:not(:hover) .Gallery_Images_Nekton_Text{
+    transition-duration: 0.5s;
+    color: transparent;
+}
+
+
+/*Benthos image editing*/
+.Gallery_Images_Benthos img{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.Gallery_Images_Benthos_Text{
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    font-size: 15px;
+}
+.Gallery_Images_Benthos:hover .Gallery_Images_Benthos_Text{
+    margin-top: -50px;
+    transition-duration: 1s;
+    color: aqua;
+}
+.Gallery_Images_Benthos:not(:hover) .Gallery_Images_Benthos_Text{
+    transition-duration: 0.5s;
+    color: transparent;
+}
+
+/*Acidification image edting*/
+.Gallery_Images_Acidification img{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: transparent;
+    
+}
+.Gallery_Images_Acidification_Text{
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    font-size: 15px;
+}
+.Gallery_Images_Acidification:hover .Gallery_Images_Acidification_Text{
+    margin-top: -50px;
+    transition-duration: 1s;
+    color: aqua;
+}
+.Gallery_Images_Acidification:not(:hover) .Gallery_Images_Acidification_Text{
+    transition-duration: 0.5s;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/*Picture and Videos Sectur Begins*/
+.Plankton_Sector {
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 50px;
+    background-color: transparent;
+    
+}
+
+.Plankton_Sector p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Plankton_Images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+/*Nekton_Images Sectur Begins*/
+.Nekton_Sector {
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 50px;
+    background-color: transparent;
+    
+}
+
+.Nekton_Sector p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nekton_Images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*Benthos Sectur Begins*/
+.Benthos_Sector {
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 50px;
+    background-color: transparent;
+    
+}
+
+.Benthos_Sector p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Benthos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+
+/*Acidification Sectur Begins*/
+.Acidification_Sector {
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 50px;
+    background-color: transparent;
+    
+}
+
+.Acidification_Sector p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Acidification {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+/*Gallery starts here*/
+
+.Images img {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: rgba(45, 132, 185, 0.43);
+    box-shadow: 3px 4px 30px 0 rgb(45, 122, 170);
+    width:300px;
+    height:300px;
+}
+
+.Images img:hover {
+    transition-duration: 1s;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    border-radius: 20px;
+    background: rgba(45, 132, 185, 0.43);
+    box-shadow: 3px 4px 30px 0 rgb(45, 122, 170);
+    width:300px;
+    height:300px;
+}
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background: linear-gradient(120deg, rgba(2,31,49,1) 0%, 
+    rgba(24,56,75,1) 35%, 
+    rgba(0,157,255,1) 100%);
+    color: white;
+  }
+  
+  .modal-body {
+    padding: 2px 16px;
+    border-top: 3px solid aqua;
+    background: linear-gradient(120deg, rgba(2,31,49,1) 0%, 
+    rgba(24,56,75,1) 35%, 
+    rgba(0,157,255,1) 100%);
+}
+  
+
+
+
+/*Fotter*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+.footer{
+    
+    padding-top: 10px;
+    position: absolute;
+    margin-top: auto;
+    padding: 20px 0;
+    
+}
+
+
+.Contacts {
+    border: 5px solid transparent;
+    color: rgba(115, 201, 255);
+    font-size: 25px;
+    
+}
+
+.container1{
+    width: 100%;
+    margin-top: 95px;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    background-color:rgb(6, 58, 100); ;
+}
+.footer-content{
+    width: 33.3%;
+}
+h4{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    color:white;
+}
+.footer-content{
+    width: 190px;
+    margin: 60px;
+    padding: 7px;
+    padding-top: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding:0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding:7px;
+    position: relative;
+}
+.list li::before{
+    content:'';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:100%;
+    width: 0;
+    height: 2px;
+    background: aqua;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+
+}
+.social-icons{
+    text-align: center;
+    padding:0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.social-icons i:hover{
+    color: aqua
+}

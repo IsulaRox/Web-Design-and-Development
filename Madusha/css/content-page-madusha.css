@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes colorchange {
+    0% { color: #e4ff5b; }
+    50% { color: #ff5be4; }
+    100% { color: #5efff7; }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+}
+
+.image-container img {
+    margin: 10px; /* Adjust margin for spacing */
+    width: 45%;
+    height: 20%;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Apply hovering effect to images inside .image-container */
+.image-container img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.pollution,
+.overfishing,
+.climate-change,
+.habitat-destruction {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.main-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.main-content img {
+    width: 30%;
+    margin-right: 20px;
+    border: 1px solid #ddd; /* Optional border for images */
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.main-content img:hover {
+    transform: scale(1.03); /* Scale the image on hover */
+}
+
+.main-content p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.main-content h1 {
+    background-color: bisque;
+    border-radius: 10%;
+}
+
+
+
+.no1-content img {
+    display:flex;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust spacing between image and paragraph */
+    width: 40%;
+}
+
+.no1-content p {
+    display: flex;
+    vertical-align:right;
+    max-width: 70%; /* Limiting the width of the paragraph */
+    
+}
+
+.header {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/vecteezy_underwater-ocean-background-black-silhouettes-swimming-sea_7952970-1.jpg");
+    margin-bottom: 10%;
+    
+}
+.header h1{
+    color: #fff;
+    animation: colorchange 3s infinite alternate;
+    text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000;
+    font-size: 73px;
+    padding-top: 25%;
+
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .image-item {
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Scales image to fill container while maintaining aspect ratio */
+  }
+  
+  .image-item p {
+    margin-top: 10px;
+  }
+  
+  .image-item:hover {
+    border: 2px solid #ddd; /* Change border color as desired */
+  }
+
+.subtopic{
+    background-color:#ffffb0;
+    border: 8px ;
+    
+
+}
+
+.pollution, .overfishing, .climate-change, .habitat-destruction{
+    margin-bottom: 50px;
+  }
+  
+  .pollution h2, .overfishing h2, .climate-change h2, .habitat-destruction h2{
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .pollution p, .overfishing p, .climate-change p, .habitat-destruction p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }

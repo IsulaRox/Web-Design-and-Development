@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: rgb(255, 194, 186);
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 20px;
+    color: #333;
+}
+a.button {
+    position: absolute; /* Position the button */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #f42500; /* Blue */
+    border: none;
+    color: rgb(116, 0, 0);
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 11%;
+
+}
+
+a.button:hover {
+    background-color: #f0754f; /* Darker blue on hover */
+}

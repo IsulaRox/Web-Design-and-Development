@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.splash-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 2; /* Ensure content appears above the video */
+}
+
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure image appears above the video */
+    width: auto; /* Adjust the width of the image */
+    height: 35%;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(235,255,254,0.8);
+  
+    padding: 15px 20px;
+}
+nav img{
+    width: 150px;
+    margin-left: 100px;
+}
+
+ul{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:rgb(12, 12, 0);
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.5 ease ;
+}
+ul li a:hover{
+    color: rgb(234, 195, 20);
+
+}
+
+ul li a:active{
+    text-decoration: underline;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),url("1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#home h2{
+    color: #fff;
+    font-size: 450%;
+    letter-spacing: 3px;
+}
+
+
+#home p{
+    color: #fff;
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+.name-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-left: 20px; /* Adjust as needed */
+    font-size: 24px;
+    z-index: 999;
+}
+

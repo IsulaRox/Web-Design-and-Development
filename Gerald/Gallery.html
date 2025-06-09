@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="CSS/Gallery.css">
+    <!-- jQuery -->
+    <script src="Js/Gallery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- jQuery Ripples JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".Plankton_Sector").ripples({
+        resolution: 500,
+        perturbance: 5,
+        });
+        });
+        $(document).ready(function(){
+        $(".Nekton_Sector").ripples({
+        resolution: 500,
+        perturbance: 5,
+        });
+        });
+        $(document).ready(function(){
+        $(".Benthos_Sector").ripples({
+        resolution: 500,
+        perturbance: 5,
+        });
+        });
+        $(document).ready(function(){
+        $(".Acidification_Sector").ripples({
+        resolution: 500,
+        perturbance: 5,
+        });
+        });
+
+
+        
+    </script>
+</head>
+
+
+
+<body>
+
+    <P>
+        
+
+        <div class="Navigations">
+            
+            <nav class="site-nav">
+                <ul class="Nav_group">
+                    <img class="Logo" src="Resources/Images/Logo/Untitled image.png" width="200px" height="200px">
+
+                            <li class="home"><a href="../Kawya/home.html" onclick="group();">Home</a></li>
+                            <li class="gallery"><a href="Gallery.html" onclick="group();">Gallery</a></li>
+                            <li class="shop"><a href="../Madusha/shop.html" onclick="group();">Shop</a></li>
+                            <li class="profile"><a href="../Isula/Profile/Profile.html" onclick="group();">Profile</a></li>
+                            <li class="feedback"><a href="../Kawya/feedback.html" onclick="group();">Feedback</a></li>
+                            <li class="sitemap"><a href="Site Map.html" onclick="group();">Sitemap</a></li>
+                            <li class="content"><a href="Content Page.html" onclick="group();">Content Page</a></li>
+                            <li class="team"><a href="../Isula/Team/Team.html" onclick="group();">Team</a></li>
+                            
+                </ul>
+            </nav>  
+
+        </div>
+    </P>
+
+
+    
+
+
+    <p>
+        
+        <center class="Topic">Gallery</center>
+        <center class="Topic_sup">Simply Art. Simply Beautiful...</center>
+        
+        <div class="search_bar_container">
+            <form action="" class="Search-Bar ">
+                <input type="text" placeholder="Search..." name="q">
+                <button type="submit"><img src="Resources/Images/Search.png" width="30px" height="30px"></button>
+            </form>
+        </div>
+    </p>
+
+    
+
+
+
+
+    <p>
+        <div class="Gallery_Sector">
+            <p class="Text">Catergories</p>
+
+    
+            <div class="Gallery_Images">
+                <div class="Gallery_Images_Plankton">
+                    <img src="Resources/Images/plankton.webp" width="200px" height="200px">
+                    <p class="Gallery_Images_Plankton_Text">Plankton</p>
+                </div>
+                <div class="Gallery_Images_Nekton">
+                    <img src="Resources/Images/Fish.jpg" width="200px" height="200px">
+                    <p class="Gallery_Images_Nekton_Text">Nekton</p>
+                </div>
+                <div class="Gallery_Images_Benthos">
+                    <img src="Resources/Images/corals.jpg" width="200px" height="200px">
+                    <p class="Gallery_Images_Benthos_Text">Benthos</p>
+                </div>
+                <div class="Gallery_Images_Acidification">
+                    <img src="Resources/Images/Acidification.jpg" width="200px" height="200px">
+                    <p class="Gallery_Images_Acidification_Text">Acidification</p>
+                </div>
+            </div>
+        </div>
+    </p>
+
+    
+
+    <p>
+        
+
+        <div class="Plankton_Sector">
+            <p class="Text">Plankton</p>
+            <div class="Checkbox">
+                <form>
+
+                    Select (Optional): <br>
+                    <input type="checkbox" name="Select (Optional)" id="Live" value="Live">
+                    <label for="Live">Live</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="Gif" value="Gif">
+                    <label for="Gif">Gif</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                  
+                  </form>
+            </div>
+
+
+            
+
+            
+
+            <div class="Plankton_Images">
+
+                <div class="Images">
+                    
+                    <img  id="myBtn1" src="Resources/Images/Plankton/1.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                        <div id="myModal1" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......</p>
+                            </div>
+                            </div>
+                        
+                        </div>
+                    
+                </div>
+                <div class="Images">
+
+                    <img id="myBtn2" src="Resources/Images/Plankton/2.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal2" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                
+
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn3" src="Resources/Images/Plankton/3.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal3" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div> 
+                <div class="Images">
+                    <img id="myBtn4" src="Resources/Images/Plankton/4.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal4" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn5" src="Resources/Images/Plankton/5.jpg" width="200px" height="200px">
+                
+                    <!-- The Modal -->
+                    <div id="myModal5" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                <div class="Images">
+                    <img id="myBtn6" src="Resources/Images/Plankton/6.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal6" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+
+                </div> 
+                <div class="Images">
+                    <img id="myBtn7" src="Resources/Images/Plankton/7.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal7" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn8" src="Resources/Images/Plankton/8.jpg" width="200px" height="200px">
+                
+                    <!-- The Modal -->
+                    <div id="myModal8" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                <div class="Images">
+                    <img id="myBtn9" src="Resources/Images/Plankton/9.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal9" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div> 
+                <div class="Images">
+                    <img id="myBtn10" src="Resources/Images/Plankton/10.jpg" width="200px" height="200px">
+
+                    <!-- The Modal -->
+                    <div id="myModal10" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn11" src="Resources/Images/Plankton/11.jpg" width="200px" height="200px">
+                
+                    <!-- The Modal -->
+                    <div id="myModal11" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Sea</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>this image ......something</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                
+                
+
+                <script>
+                    var image1 = document.getElementById("myBtn1"); // Modal btns
+                    var image2 = document.getElementById("myBtn2"); // Modal btns
+                    var image3 = document.getElementById("myBtn3");
+                    var image4 = document.getElementById("myBtn4");
+                    var image5 = document.getElementById("myBtn5");
+                    var image6 = document.getElementById("myBtn6");
+                    var image7 = document.getElementById("myBtn7");
+                    var image8 = document.getElementById("myBtn8");
+                    var image9 = document.getElementById("myBtn9");
+                    var image10 = document.getElementById("myBtn10");
+                    var image11 = document.getElementById("myBtn11");
+                    
+
+
+
+
+
+                    image1.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal1"); // Assuming the modal for the first image
+                      modal.style.display = "block";
+                    });
+                  
+                    image2.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal2"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image3.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal3"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image4.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal4"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image5.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal5"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image6.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal6"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image7.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal7"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image8.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal8"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image9.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal9"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image10.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal10"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image11.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal11"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    
+                  
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                  
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                      var modal = span.parentElement.parentElement; // Get the modal element from the close button
+                      modal.style.display = "none";
+                    };
+                  
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target.classList.contains("modal")) {
+                        event.target.style.display = "none";
+                      }
+                    };
+                  
+                    // Optional: Prevent event bubbling from modal content (if needed)
+                    var modalContent1 = document.getElementById("myModal1").getElementsByClassName("modal-content")[0];
+                    var modalContent2 = document.getElementById("myModal2").getElementsByClassName("modal-content")[0];
+                  
+                    modalContent1.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  
+                    modalContent2.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  </script>
+                
+
+            </div>
+
+        </div>
+    </p>
+
+    <p>
+
+        <div class="Nekton_Sector">
+            <p class="Text">Nekton</p>
+            <div class="Checkbox">
+                <form>
+
+                    Select (Optional): <br>
+                    <input type="checkbox" name="Select (Optional)" id="Live" value="Live">
+                    <label for="Live">Live</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="Gif" value="Gif">
+                    <label for="Gif">Gif</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                  
+                  </form>
+            </div>
+            <div class="Nekton_Images">
+
+                <div class="Images">
+                    <img id="myBtn12" src="Resources/Images/Nekton/1.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal12" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn13" src="Resources/Images/Nekton/2.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal13" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn14" src="Resources/Images/Nekton/3.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal14" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn15" src="Resources/Images/Nekton/4.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal15" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn16" src="Resources/Images/Nekton/5.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal16" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn17" src="Resources/Images/Nekton/6.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal17" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn18" src="Resources/Images/Nekton/7.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal18" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn19" src="Resources/Images/Nekton/8.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal19" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn20" src="Resources/Images/Nekton/9.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal20" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn21" src="Resources/Images/Nekton/10.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal21" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <script>
+                    var image1 = document.getElementById("myBtn12"); // Modal btns
+                    var image2 = document.getElementById("myBtn13"); // Modal btns
+                    var image3 = document.getElementById("myBtn14");
+                    var image4 = document.getElementById("myBtn15");
+                    var image5 = document.getElementById("myBtn16");
+                    var image6 = document.getElementById("myBtn17");
+                    var image7 = document.getElementById("myBtn18");
+                    var image8 = document.getElementById("myBtn19");
+                    var image9 = document.getElementById("myBtn20");
+                    var image10 = document.getElementById("myBtn21");
+                    
+                    
+
+
+
+
+
+                    image1.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal12"); // Assuming the modal for the first image
+                      modal.style.display = "block";
+                    });
+                  
+                    image2.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal13"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image3.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal14"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image4.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal15"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image5.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal16"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image6.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal17"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image7.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal18"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image8.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal19"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image9.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal20"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image10.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal21"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    
+
+                    
+                  
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                  
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                      var modal = span.parentElement.parentElement; // Get the modal element from the close button
+                      modal.style.display = "none";
+                    };
+                  
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target.classList.contains("modal")) {
+                        event.target.style.display = "none";
+                      }
+                    };
+                  
+                    // Optional: Prevent event bubbling from modal content (if needed)
+                    var modalContent1 = document.getElementById("myModal1").getElementsByClassName("modal-content")[0];
+                    var modalContent2 = document.getElementById("myModal2").getElementsByClassName("modal-content")[0];
+                  
+                    modalContent1.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  
+                    modalContent2.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  </script>
+                
+
+            </div>
+
+        </div>
+    </p>
+
+    <p>
+
+        <div class="Benthos_Sector">
+            <p class="Text">Benthos</p>
+            <div class="Checkbox">
+                <form>
+
+                    Select (Optional): <br>
+                    <input type="checkbox" name="Select (Optional)" id="Live" value="Live">
+                    <label for="Live">Live</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="Gif" value="Gif">
+                    <label for="Gif">Gif</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                  
+                  </form>
+            </div>
+            
+            <div class="Benthos">
+                
+                <div class="Images">
+                    <img id="myBtn22" src="Resources/Images/Benthos/1.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal22" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn23" src="Resources/Images/Benthos/2.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal23" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn24" src="Resources/Images/Benthos/3.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal24" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn25" src="Resources/Images/Benthos/4.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal25" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn26"src="Resources/Images/Benthos/5.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal26" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="Images">
+                    <img id="myBtn27" src="Resources/Images/Benthos/6.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal27" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                
+
+                <script>
+                    var image1 = document.getElementById("myBtn22"); // Modal btns
+                    var image2 = document.getElementById("myBtn23"); // Modal btns
+                    var image3 = document.getElementById("myBtn24");
+                    var image4 = document.getElementById("myBtn25");
+                    var image5 = document.getElementById("myBtn26");
+                    var image6 = document.getElementById("myBtn27");
+                    
+                    
+                    
+
+
+
+
+
+                    image1.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal22"); // Assuming the modal for the first image
+                      modal.style.display = "block";
+                    });
+                  
+                    image2.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal23"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image3.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal24"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image4.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal25"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image5.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal26"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image6.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal27"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    
+
+                    
+
+                    
+                  
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                  
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                      var modal = span.parentElement.parentElement; // Get the modal element from the close button
+                      modal.style.display = "none";
+                    };
+                  
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target.classList.contains("modal")) {
+                        event.target.style.display = "none";
+                      }
+                    };
+                  
+                    // Optional: Prevent event bubbling from modal content (if needed)
+                    var modalContent1 = document.getElementById("myModal1").getElementsByClassName("modal-content")[0];
+                    var modalContent2 = document.getElementById("myModal2").getElementsByClassName("modal-content")[0];
+                  
+                    modalContent1.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  
+                    modalContent2.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  </script>
+                
+            </div>
+
+        </div>
+    </p>
+
+    <p>
+
+        <div class="Acidification_Sector">
+            <p class="Text">Acidification</p>
+            <div class="Checkbox">
+                <form>
+
+                    Select (Optional): <br>
+                    <input type="checkbox" name="Select (Optional)" id="Live" value="Live">
+                    <label for="Live">Live</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="Gif" value="Gif">
+                    <label for="Gif">Gif</label>
+                  
+                    <input type="checkbox" name="Select (Optional)" id="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                  
+                  </form>
+            </div>
+            
+            <div class="Acidification">
+                
+                <div class="Images">
+                    <img id="myBtn28" src="Resources/Images/Acidification/1.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal28" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn29"  src="Resources/Images/Acidification/2.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal29" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn30"  src="Resources/Images/Acidification/3.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal30" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+                <div class="Images">
+                    <img id="myBtn31"  src="Resources/Images/Acidification/4.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal31" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+                    
+                </div>
+                <div class="Images">
+                    <img id="myBtn32" src="Resources/Images/Acidification/5.jpg" width="200px" height="200px">
+                    <!-- The Modal -->
+                    <div id="myModal32" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Sea</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>this image ......</p>
+                        </div>
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+                
+                
+                
+                <script>
+                    var image1 = document.getElementById("myBtn28"); // Modal btns
+                    var image2 = document.getElementById("myBtn29"); // Modal btns
+                    var image3 = document.getElementById("myBtn30");
+                    var image4 = document.getElementById("myBtn31");
+                    var image5 = document.getElementById("myBtn32");
+                    
+                    
+                    
+                    
+
+
+
+
+
+                    image1.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal28"); // Assuming the modal for the first image
+                      modal.style.display = "block";
+                    });
+                  
+                    image2.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal29"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image3.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal30"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image4.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal31"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    image5.addEventListener("click", function() {
+                      var modal = document.getElementById("myModal32"); // Assuming the modal for the second image
+                      modal.style.display = "block";
+                    });
+
+                    
+                    
+
+                    
+
+                    
+                  
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                  
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                      var modal = span.parentElement.parentElement; // Get the modal element from the close button
+                      modal.style.display = "none";
+                    };
+                  
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                      if (event.target.classList.contains("modal")) {
+                        event.target.style.display = "none";
+                      }
+                    };
+                  
+                    // Optional: Prevent event bubbling from modal content (if needed)
+                    var modalContent1 = document.getElementById("myModal1").getElementsByClassName("modal-content")[0];
+                    var modalContent2 = document.getElementById("myModal2").getElementsByClassName("modal-content")[0];
+                  
+                    modalContent1.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  
+                    modalContent2.addEventListener("click", function(event) {
+                      event.stopPropagation();
+                    });
+                  </script>
+
+
+            </div>
+
+        </div>
+    </p>
+
+
+    
+
+
+</body>
+
+<footer>
+
+    
+
+        <footer>
+            <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+            <div class="container1">
+                <div class="Contacts">
+                    <div class="footer-content">
+                        <p><h4>Contact Us</h4></p>
+                        <p><br>Email:Gerald.20221108@iit.ac.lk</p>
+                        <p>Phone:+94 706958596</p>
+                        <p>Address: 10, Trelawney Place,<br>
+                            Colombo 04,<br>
+                            Sri lanka.<br></p>
+                        <p><br>Email:kawya.20221219@iit.ac.lk</p>
+                        <p>Phone:+94 752456910</p>
+                        <p>Address: 10, Trelawney Place,<br>
+                            Colombo 04,<br>
+                            Sri lanka.<br></p>
+                        <p><br>Email:Madusha.20221219@iit.ac.lk</p>
+                        <p>Phone:+94 767658058</p>
+                        <p>Address: 10, Trelawney Place,<br>
+                            Colombo 04,<br>
+                            Sri lanka.<br></p>
+                        <p><br>Email:Isula.20221219@iit.ac.lk</p>
+                        <p>Phone:+94 710703625</p>
+                        <p>Address: 10, Trelawney Place,<br>
+                            Colombo 04,<br>
+                            Sri lanka.</p>
+                    </div>
+                </div>
+    
+                <div class="footer-content">
+                    <h4>Quick Links</h4>
+                    <ul class="list">
+                        <li class="home"><a href="../Kawya/home.html" onclick="group();">Home</a></li>
+                            <li class="gallery"><a href="Gallery.html" onclick="group();">Gallery</a></li>
+                            <li class="shop"><a href="../Madusha/shop.html" onclick="group();">Shop</a></li>
+                            <li class="profile"><a href="../Isula/Profile/Profile.html" onclick="group();">Profile</a></li>
+                            <li class="feedback"><a href="../Kawya/feedback.html" onclick="group();">Feedback</a></li>
+                            <li class="sitemap"><a href="Site Map.html" onclick="group();">Sitemap</a></li>
+                            <li class="team"><a href="../Isula/Team/Team.html" onclick="group();">Team</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-content">
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                      <li><a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a></li>
+                    </ul>  
+                </div>
+    
+                <div class="footer-content">
+                    <p><a href="Page Editer.html">Link to Page Editer</a></p>
+    
+                </div>
+            </div>
+        
+
+
+</footer>
+
+
+</html>

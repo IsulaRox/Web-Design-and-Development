@@ -1,0 +1,80 @@
+body,html{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('8.png');
+    background-position: center;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+fieldset{
+    background-color:rgb(111, 168, 224);
+    text-align: center;
+    background-size: auto;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-left: 440px;
+    margin-right: 440px;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(16, 100, 184);
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+input{
+    color:black
+}
+
+
+
+textarea{
+    color:black;
+}
+option{
+    color:black;
+}
+select{
+    color:black;
+
+}
+input::placeholder{
+      color: grey;
+      font-size: 12px;
+}
+textarea::placeholder{
+      color: grey;
+      font-size: 15px;
+      padding-bottom: 20px;
+}
+#submitbutton button{
+      font-size: 9px;
+      font-weight: bold;
+      background: rgb(16, 70, 133);
+      width: 140px;
+      padding:12px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition-duration: 0.3s;
+      transition-property: box-shadow, transform;
+}
+#submitbutton button:hover,#submitbutton button:focus,#submitbutton button:active{
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      transform: scale(1.1);
+}
